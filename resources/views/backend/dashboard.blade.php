@@ -30,7 +30,7 @@
     @vite(['resources/js/backend/app.js'])
 </head>
 
-<body class="bg-theme bg-theme1">
+<body class="bg-theme bg-theme1" id="body">
     <div id="app">
         <app></app>
     </div>

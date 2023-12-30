@@ -18,6 +18,7 @@
 
             </li>
 
+
             <li class="menu-label">Blog Management</li>
             <side-bar-drop-down-menus :icon="`fa fa-plus`" :menu_title="`Blog Manage`" :menus="[
                 {
@@ -29,6 +30,7 @@
                     title: `Blogs`,
                 },
             ]" />
+
             <li class="menu-label">Blood Management</li>
             <side-bar-drop-down-menus :icon="`fa fa-plus`" :menu_title="`Blood Doner`" :menus="[
                 {
@@ -40,6 +42,7 @@
                     title: `Blogs`,
                 },
             ]" />
+
             <li class="menu-label">Project Management</li>
             <side-bar-drop-down-menus :icon="`fa fa-plus`" :menu_title="`Blood Doner`" :menus="[
                 {
@@ -51,6 +54,16 @@
                     title: `Blogs`,
                 },
             ]" />
+
+            <li class="menu-label">User Management</li>
+            <li>
+                <router-link :to="{ name: `AllUser` }" href="javascript:void();" aria-expanded="false">
+                    <div class="parent-icon">
+                        <i class="fa fa-users"></i>
+                    </div>
+                    <div class="menu-title">All Users</div>
+                </router-link>
+            </li>
 
         </ul>
     </div>
